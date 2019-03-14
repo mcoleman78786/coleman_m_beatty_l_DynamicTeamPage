@@ -19,8 +19,8 @@ body {
 #malBio:hover {
 	background-image: url(file:///Users/mallorycoleman/Desktop/coleman_m_beatty_l_DynamicTeamPage/images/black_background.jpg);
 	border: 2px solid white;
-	width: 400px;
-	height: 400px;
+	width: 500px;
+	height: 700px;
 }
 
 
@@ -46,8 +46,8 @@ body {
 #lucBio:hover {
 	background-image: url(file:///Users/mallorycoleman/Desktop/coleman_m_beatty_l_DynamicTeamPage/images/star_wars_background.jpg);
 	border: 2px solid white;
-	width: 400px;
-	height: 600px;
+	width: 500px;
+	height: 700px;
 }
 
 .lucHeadshot {
@@ -71,7 +71,9 @@ p {
 	width: 300px;
 	background-color: white;
 	margin: 0 auto;
+	font-family: 'Average', serif;
 }
+
 
 
 h1 {
