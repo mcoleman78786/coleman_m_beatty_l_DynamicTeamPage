@@ -6,29 +6,47 @@
 
 body {
 	max-width: 1200px;
+	background-color: black;
 }
 
-.container
-{
-	margin-top: 50px;
+
+.container {
+  margin-top: 50px;
   max-width: 1200px;
   display: flex;
   flex-direction: row;
   justify-content: evenly;
 }
 
-.malHeadshot
-{
+.malHeadshot {
 	max-width: 30%;
 }
 
-#malBio
-{
+.malHeadshot:hover {
+	border: 1px solid white;
+	border-radius: 130px;
+}
+
+
+#malBio {
 	text-align: center;
 }
 
-.lucHeadshot
-{
+.lucHeadshot {
 	max-width: 70%;
 }
 
+.lucHeadshot:hover {
+	border: 1px solid white;
+	border-radius: 130px;
+
+}
+
+.lucName {
+	margin-left: 30px;
+}
+
+h1 {
+font-family: 'Average', serif;
+	font-size: 40px;
+}
