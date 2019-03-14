@@ -9,18 +9,16 @@ body {
 	background-color: black;
 }
 
-
 .container {
-  margin-top: 50px;
-  max-width: 1200px;
   display: flex;
-  flex-direction: row;
-  justify-content: evenly;
+  margin-top: 50px;
+  justify-content: space-between;
 }
 
-.malHeadshot {
-	max-width: 30%;
+./*malHeadshot {
+	max-width: 31.2%;
 }
+
 
 .malHeadshot:hover {
 	border: 1px solid white;
@@ -28,25 +26,28 @@ body {
 }
 
 
-#malBio {
-	text-align: center;
-}
-
 .lucHeadshot {
 	max-width: 70%;
 }
 
 .lucHeadshot:hover {
 	border: 1px solid white;
-	border-radius: 130px;
+	border-radius: 260px;
 
 }
 
-.lucName {
-	margin-left: 30px;
-}
 
 h1 {
-font-family: 'Average', serif;
+    font-family: 'Average', serif;
 	font-size: 40px;
+	background-color: white;
 }
+
+.malName {
+	width: 300px;
+}
+
+
+.lucName {
+	width: 220px;
+}*/
