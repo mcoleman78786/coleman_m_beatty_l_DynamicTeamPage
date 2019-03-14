@@ -9,7 +9,16 @@ body {
 }
 
 
+h2 {
+	margin-left: 390px;
+	font-size: 60px;
+    font-family: 'Average', serif;
+    text-shadow: 1px 1px black;
+    margin-top: 10px;
+}
+
 .container {
+  margin-left: 200px;
   display: flex;
   margin-top: 50px;
   justify-content: space-evenly;
@@ -21,6 +30,7 @@ body {
 	border: 2px solid white;
 	width: 500px;
 	height: 700px;
+	border-radius: 30px;
 }
 
 
@@ -48,6 +58,7 @@ body {
 	border: 2px solid white;
 	width: 500px;
 	height: 700px;
+	border-radius: 30px;
 }
 
 .lucHeadshot {
