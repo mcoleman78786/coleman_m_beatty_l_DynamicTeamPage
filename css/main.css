@@ -3,3 +3,32 @@
 .hidden {
 	display: none;
 }
+
+body {
+	max-width: 1200px;
+}
+
+.container
+{
+	margin-top: 50px;
+  max-width: 1200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: evenly;
+}
+
+.malHeadshot
+{
+	max-width: 30%;
+}
+
+#malBio
+{
+	text-align: center;
+}
+
+.lucHeadshot
+{
+	max-width: 70%;
+}
+
