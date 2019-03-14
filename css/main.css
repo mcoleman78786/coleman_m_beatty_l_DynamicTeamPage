@@ -6,17 +6,12 @@
 
 body {
 	max-width: 1200px;
-	background-color: black;
 }
 
 .container {
   display: flex;
   margin-top: 50px;
-  justify-content: space-between;
-}
-
-./*malHeadshot {
-	max-width: 31.2%;
+  justify-content: space-evenly;
 }
 
 
@@ -25,10 +20,6 @@ body {
 	border-radius: 130px;
 }
 
-
-.lucHeadshot {
-	max-width: 70%;
-}
 
 .lucHeadshot:hover {
 	border: 1px solid white;
@@ -42,12 +33,3 @@ h1 {
 	font-size: 40px;
 	background-color: white;
 }
-
-.malName {
-	width: 300px;
-}
-
-
-.lucName {
-	width: 220px;
-}*/
