@@ -26,7 +26,7 @@ body {
 
 .container:hover h1 {
 	text-decoration: underline;
-
+	margin: 0 auto;
 }
 
 .malName:hover {
@@ -39,7 +39,7 @@ body {
 }
 
 .malHeadshot:hover {
-	border: 2px solid white;
+	border: 2px solid #47005c;
 	border-radius: 260px;
 }
 
@@ -47,7 +47,7 @@ body {
 	background-image: url(file:///Users/mallorycoleman/Desktop/coleman_m_beatty_l_DynamicTeamPage/images/star_wars_background.jpg);
 	border: 2px solid white;
 	width: 400px;
-	height: 400px;
+	height: 600px;
 }
 
 .lucHeadshot {
@@ -56,7 +56,7 @@ body {
 }
 
 .lucHeadshot:hover {
-	border: 2px solid white;
+	border: 2px solid #750000;
 	border-radius: 260px;
 
 }
@@ -65,9 +65,19 @@ body {
 	color: #750000;
 }
 
+
+p {
+	padding-top: 20px;
+	width: 300px;
+	background-color: white;
+	margin: 0 auto;
+}
+
+
 h1 {
     font-family: 'Average', serif;
 	font-size: 40px;
 	color: black;
 	background-color: white;
+	width: 300px;
 }
