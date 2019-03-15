@@ -10,21 +10,31 @@ body {
 
 
 h2 {
-	margin-left: 390px;
+	margin-left: 250px;
 	font-size: 60px;
     font-family: 'Average', serif;
-    text-shadow: 1px 1px #1a237e;
-    margin-top: 10px;
+    text-shadow: 1px 1px #a51d3a;
+}
+
+.logo {
+	max-width: 20%;
+	margin-top: 30px;
+	margin-left: 30px;
 }
 
 .container {
-  margin-left: 200px;
-  display: flex;
-  margin-top: 50px;
-  justify-content: space-evenly;
-  text-align: center;
+	display: flex;
 }
 
+#topInfo {
+	display: flex;
+	flex-direction: column;
+}
+
+#nameButton {
+	margin: 0 auto;
+}
+/*
 #malBio:hover {
 	background-image: url(file:///Users/mallorycoleman/Desktop/coleman_m_beatty_l_DynamicTeamPage/images/black_background.jpg);
 	border: 2px solid white;
@@ -93,4 +103,4 @@ h1 {
 	color: black;
 	background-color: white;
 	width: 300px;
-}
+}*/
