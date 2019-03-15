@@ -32,7 +32,27 @@ h2 {
 }
 
 #nameButton {
-	margin: 0 auto;
+	margin-left: 400px;
+}
+
+button {
+	margin-left: 30px;
+	text-align: center;
+	margin-top: 30px;
+	width: 170px;
+	height: 40px;
+	border-radius: 10px;
+	border: 2px solid black;
+	background-color: white;
+    font-family: 'Average', serif;
+    font-size: 20px;	
+    color: #a51d3a;
+}
+
+button:hover {
+	background-color: black;
+	color: #ea5769;
+	border: 2px solid #a51d3a;
 }
 /*
 #malBio:hover {
