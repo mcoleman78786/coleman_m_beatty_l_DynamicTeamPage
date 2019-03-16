@@ -23,7 +23,6 @@ h2 {
 }
 
 p {
-	background-color: white;
 	margin: 0 auto;
 	font-family: 'Average', serif;
 }
@@ -35,21 +34,37 @@ p {
 	margin: auto;
 }
 
+
 #topInfo
 {
 	display: flex;
 	flex-direction: row;
 	margin-top: 25px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
-#bioHeader p
+
+#bioHeader
 {
 	font-size: 40px;
+	margin-left: 112px;
+	line-height: 26px;
+	letter-spacing: .3px;
 }
 
 #bioTitle 
 {
 	margin-top: 230px;
+	align-content: center;
+}
+
+#bioInfo
+{
+	line-height: 26px;
+	letter-spacing: .3px;
+	background-color: white;
+	padding: 13px;
 }
 
 #copyInfo
@@ -57,10 +72,9 @@ p {
 	margin-top: 25px;
 	margin-left: auto;
 	margin-right: auto;
-	width: 800px;
+	width: 958px;
 	height: 400px;
 	font-size: 18px;
-	text-align: center;
 }
 
 #bioButtonCon
@@ -68,16 +82,81 @@ p {
 	display: flex;
 	flex-direction: row;
 	margin-top: 25px;
+	justify-content: flex-end;
 }
 
 #lucBio
 {
-	background-color: red;
-	margin-right: 10px;
+	color: white;
+	background-color: #a51d3a;
+	padding: 8px;
+	outline: 3px solid  #a51d3a;
+	border: solid 2px;
+	border-color: white;
+	margin-right: 75px;
 }
 
 #malBio
 {
-	background-color: blue;
+	color: white;
+	background-color: #e545d9;
+	padding: 8px;
+	outline: 3px solid  #e545d9;
+	border: solid 2px;
+	border-color: white;
 
 }
+
+.lucBck 
+{
+	background-image: url(../images/star_wars_background.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+
+.malBck 
+{
+	background-image: url(../images/black_background.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+
+.lucAnimation {
+	animation: lucAnim 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+.malAnimation {
+	animation: malAnim 0.6s ease-out both;
+}
+
+@keyframes lucAnim {
+	  0% {
+            transform: translateY(-300px);
+    opacity: 0;
+    filter: blur(25px);
+  }
+  100% {
+            transform: translateY(0);
+    opacity: 1;
+    filter: blur(0px);
+  }
+
+}
+
+@keyframes malAnim {
+  0% {
+    -webkit-transform: rotate(-540deg) scale(0);
+            transform: rotate(-540deg) scale(0);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: rotate(0) scale(1);
+            transform: rotate(0) scale(1);
+    opacity: 1;
+  }
+}
+
+
+
